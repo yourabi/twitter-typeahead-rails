@@ -14,7 +14,7 @@ Add this line to your application's Gemfile:
 
     or
 
-    gem 'twitter-typeahead-rails', :git => "git@github.com:yourabi/twitter-typeahead-rails.git"
+    gem 'twitter-typeahead-rails', :git => "git://github.com/yourabi/twitter-typeahead-rails.git"
     
 
 And then execute:
@@ -34,6 +34,7 @@ Add one the folllwing to your application.js mainifest:
 ```js
 
 //= require twitter/typeahead                                                                                                                                                                                                                             
+
 //= require twitter/typeahead.min                                                                                                                                                                                                                        
 
 ```
