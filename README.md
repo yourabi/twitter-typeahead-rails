@@ -49,17 +49,7 @@ $(document).ready(function() {
 
 ```
 
-You'll also probably want to enable include the CSS in your application.css manifest. Include one of the following:
-
-```js
-
-*= require twitter/typeahead
-
-*= require twitter/typeahead.min
-
-```
-
-Currently this version tracks version v0.8.0.
+Currently this version tracks version v0.9.2.
 
 ## Contributing
 
@@ -68,3 +58,4 @@ Currently this version tracks version v0.8.0.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
