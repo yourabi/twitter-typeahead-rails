@@ -1,4 +1,4 @@
-require "twitter-typeahead-rails/version"
+require 'twitter-typeahead-rails/version'
 
 module Twitter
   module Typeahead

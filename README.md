@@ -49,7 +49,7 @@ $(document).ready(function() {
 
 ```
 
-Currently this version tracks version v0.9.2.
+Currently this version tracks version v0.9.3.
 
 ## Contributing
 
