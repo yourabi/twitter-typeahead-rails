@@ -29,7 +29,7 @@ Or install it yourself as:
 
 To start using the twitter typeahead.js plugin in your rails app enable it via the asset pipeline (app/assets/javascripts/application.js).
 
-Add one the folllwing to your application.js mainifest:
+Add one the following to your application.js manifest:
 
 ```js
 
