@@ -15,7 +15,7 @@ Add this line to your application's Gemfile:
     or
 
     gem 'twitter-typeahead-rails', :git => "git://github.com/yourabi/twitter-typeahead-rails.git"
-    
+
 
 And then execute:
 
@@ -33,9 +33,9 @@ Add one of the following to your application.js manifest:
 
 ```js
 
-//= require twitter/typeahead                                                                                                                                                                                                                             
+//= require twitter/typeahead
 
-//= require twitter/typeahead.min                                                                                                                                                                                                                        
+//= require twitter/typeahead.min
 
 ```
 
@@ -43,13 +43,36 @@ Add one of the following to your application.js manifest:
 ```js
 
 // Twitter typeahead exmaple.
-$(document).ready(function() {
-  $('.typeahead').typeahead( {name: 'planets', local: [ "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" ] });
+
+// instantiate the bloodhound suggestion engine
+var numbers = new Bloodhound({
+  datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.num); },
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  local: [
+    { num: 'one' },
+    { num: 'two' },
+    { num: 'three' },
+    { num: 'four' },
+    { num: 'five' },
+    { num: 'six' },
+    { num: 'seven' },
+    { num: 'eight' },
+    { num: 'nine' },
+    { num: 'ten' }
+  ]
 });
 
+// initialize the bloodhound suggestion engine
+numbers.initialize();
+
+// instantiate the typeahead UI
+$('.example-numbers .typeahead').typeahead(null, {
+  displayKey: 'num',
+  source: numbers.ttAdapter()
+});
 ```
 
-Currently this version tracks version v0.9.3.
+Currently this version tracks version v0.10.0.
 
 ## Contributing
 
