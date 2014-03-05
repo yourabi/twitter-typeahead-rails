@@ -1,4 +1,4 @@
-//=require twitter/typeahead/typeahead.js
+//=require twitter/typeahead/typeahead.bundle.js
 
 
 
