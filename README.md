@@ -46,7 +46,7 @@ Add one of the following to your application.js manifest:
 
 // instantiate the bloodhound suggestion engine
 var numbers = new Bloodhound({
-  datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.num); },
+  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('num'),
   queryTokenizer: Bloodhound.tokenizers.whitespace,
   local: [
     { num: 'one' },
@@ -72,7 +72,7 @@ $('.example-numbers .typeahead').typeahead(null, {
 });
 ```
 
-Currently this version tracks version v0.10.1.
+Currently this version tracks version v0.10.2.
 
 ## Contributing
 
