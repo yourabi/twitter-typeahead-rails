@@ -1,6 +1,6 @@
 # Twitter typeahead.js jquery plugin
 
-This asset gem packages the [twitter typeahead.js](https://github.com/twitter/typeahead.js) jquery plugin for the Rails asset pipeline.
+This asset gem packages the [twitter typeahead.js](https://github.com/twitter/typeahead.js) **v0.10.4** jquery plugin for the Rails asset pipeline.
 
 To learn more about typeahead.js read the post [Twitter's engineering blog](http://engineering.twitter.com/2013/02/twitter-typeaheadjs-you-autocomplete-me.html).
 
@@ -12,7 +12,7 @@ Add this line to your application's Gemfile:
 
     gem 'twitter-typeahead-rails'
 
-    or
+or
 
     gem 'twitter-typeahead-rails', :git => "git://github.com/yourabi/twitter-typeahead-rails.git"
 
@@ -25,20 +25,24 @@ Or install it yourself as:
 
     $ gem install twitter-typeahead-rails
 
-## Usage
+## Configuration
 
 To start using the twitter typeahead.js plugin in your rails app enable it via the asset pipeline (app/assets/javascripts/application.js).
 
 Add one of the following to your application.js manifest:
 
+Standard version
 ```js
-
 //= require twitter/typeahead
+```
 
+Minified version : 
+```js
 //= require twitter/typeahead.min
 
 ```
 
+## Usage
 
 ```js
 
@@ -71,8 +75,6 @@ $('.example-numbers .typeahead').typeahead(null, {
   source: numbers.ttAdapter()
 });
 ```
-
-Currently this version tracks version v0.10.2.
 
 ## Contributing
 
