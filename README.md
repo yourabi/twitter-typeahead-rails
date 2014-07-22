@@ -27,6 +27,8 @@ Or install it yourself as:
 
 ## Configuration
 
+### Javascript
+
 To start using the twitter typeahead.js plugin in your rails app enable it via the asset pipeline (app/assets/javascripts/application.js).
 
 Add one of the following to your application.js manifest:
@@ -39,14 +41,20 @@ Standard version
 Minified version : 
 ```js
 //= require twitter/typeahead.min
-
 ```
+
+### Css
+
+You can use a css example via the asset pipeline (app/assets/stylesheets/application.css) :
+```css
+*= require twitter-typeahead-rails
+```
+
 
 ## Usage
 
 ```js
-
-// Twitter typeahead exmaple.
+// Twitter typeahead example.
 
 // instantiate the bloodhound suggestion engine
 var numbers = new Bloodhound({
