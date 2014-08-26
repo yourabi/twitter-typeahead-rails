@@ -1,7 +1,7 @@
 module Twitter
   module Typeahead
     module Rails
-      VERSION = "0.10.2"
+      VERSION = "0.10.5"
     end
   end
 end
