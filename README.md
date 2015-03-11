@@ -42,7 +42,7 @@ Add one of the following to your application.js manifest:
 
 ```js
 
-// Twitter typeahead exmaple.
+// Twitter typeahead example.
 
 // instantiate the bloodhound suggestion engine
 var numbers = new Bloodhound({
