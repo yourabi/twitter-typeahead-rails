@@ -10,11 +10,11 @@ This gem includes the standard and minified versions of the assets.
 
 Add this line to your application's Gemfile:
 
-    gem 'twitter-typeahead-rails' # For the original one
+    gem 'twitter-typeahead-rails'
 
     or
 
-    gem 'twitter-typeahead-rails', :git => "git://github.com/loop23/twitter-typeahead-rails.git"
+    gem 'twitter-typeahead-rails', :git => "git://github.com/yourabi/twitter-typeahead-rails.git"
 
 
 And then execute:
