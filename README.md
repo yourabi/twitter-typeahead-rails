@@ -1,6 +1,6 @@
 # Twitter typeahead.js jquery plugin
 
-This asset gem packages the [twitter typeahead.js](https://github.com/twitter/typeahead.js) jquery plugin for the Rails asset pipeline.
+This asset gem packages the [mantained twitter typeahead.js](https://github.com/corejavascript/typeahead.js) jquery plugin for the Rails asset pipeline.
 
 To learn more about typeahead.js read the post [Twitter's engineering blog](http://engineering.twitter.com/2013/02/twitter-typeaheadjs-you-autocomplete-me.html).
 
@@ -81,4 +81,3 @@ Currently this version tracks version v0.11.1.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
