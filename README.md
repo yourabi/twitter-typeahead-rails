@@ -39,6 +39,14 @@ Add one of the following to your application.js manifest:
 
 ```
 
+You can add default styles by adding the following to your application.scss manifest:
+
+```css
+
+*= require twitter/typeahead
+
+```
+
 
 ```js
 
